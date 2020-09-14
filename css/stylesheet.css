@@ -1,0 +1,68 @@
+div {
+    background-color: blue;
+    height: 25px;
+}
+  
+.fullWidth {
+    background-color: yellow;
+}
+  
+.heightDiv {
+    height: 100px;
+    display: inline-block;
+    width: 40%;
+}
+  
+section .heightDiv {
+    float: left;
+    width: 78%;
+    background-color: aqua;
+}
+  
+aside .heightDiv {
+    float: right;
+    width: 20%;
+}
+  
+footer div {
+    clear: both;
+}
+
+.content{
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background-color: #985fa0;
+    margin: 5px;
+}
+
+@media screen and (max-width:768px){
+	/*If the browser window is 768px or smaller*/
+    .content{
+    display: inline-block;
+    width: 45%;
+    height: 250px;
+    background-color: #985fa0;
+    margin-left: auto;
+    margin-right: auto;    
+    }
+    
+    #bottom{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:550px){
+	.content{
+    display: block;
+    width: 75%;
+    height: 250px;
+    background-color: #985fa0;
+    margin-left: auto;
+    margin-right: auto;    
+    }
+    
+    #bottom{
+        width: 75%;
+    }
+}
