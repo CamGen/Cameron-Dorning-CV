@@ -82,6 +82,10 @@ p {
     font-size: 20px;
 }
 
+#skills {
+    text-align: center;
+}
+
 #profile {
     width: 300px;
 }
@@ -101,10 +105,6 @@ p {
     padding: 10px;
     width: 50px;
     text-align: center;
-}
-
-div.gridSkills {
-    width: 100px;
 }
 
 #contact {
