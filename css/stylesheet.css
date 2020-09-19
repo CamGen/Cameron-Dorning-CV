@@ -33,11 +33,12 @@
     display: block;
     background-color: white;
     color: black;
-    /*padding-left: 10%;
-    padding-right: 10%;*/
     line-height: 30px;
-    padding-top: 100px;
     width: 100%;
+}
+
+div.content {
+    height: 100%;
 }
 
 #home {
@@ -60,9 +61,14 @@
     font-size: 60px;
 }
 
+#experience {
+    background-color: black;
+    color: white;
+}
+
 .content h2 {
     font-size: 40px;
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -98,6 +104,11 @@ p {
 
 div.gridSkills {
     width: 100px;
+}
+
+#contact {
+    background-color: black;
+    color: white;
 }
 
 .contactInfo {
