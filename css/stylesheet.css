@@ -85,13 +85,32 @@ p {
 .gridSkills {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 10px;
-    padding: 10px;
+    grid-gap: 20px;
+    padding: 100px;
     text-align: center;
 }
+
+div.gridSkills .skillItem {
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 1px #dbdbdb;
+    transition: all 200ms ease;
+}
+
+div.gridSkills .skillItem:hover {
+    box-shadow: 0px 0px 5px 10px #dddddd;
+    transform: scale(1.05);
+}
+
 div.gridSkills img {
     width: 100px;
     height: 100px;
+}
+
+#item3 {
+    grid-area: 2 / 1 / span 1 / span 2;
 }
 
 #skills {
