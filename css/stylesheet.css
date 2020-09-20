@@ -53,6 +53,7 @@ div.content {
     padding-top: 50px;
 }
 
+/*Set heading in #home to a larger size, near the bottom*/
 #home h2 {
     font-size: 80px;
     padding-top: 450px;
@@ -191,5 +192,5 @@ div.gridSkills img {
 
     .navbar a {
         font-size: 15px;
-    }7
+    }
 }
