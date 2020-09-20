@@ -82,6 +82,18 @@ p {
     font-size: 20px;
 }
 
+.gridSkills {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+div.gridSkills img {
+    width: 100px;
+    height: 100px;
+}
+
 #skills {
     text-align: center;
 }
@@ -95,15 +107,6 @@ p {
     grid-template-columns: auto auto;
     grid-gap: 10px;
     padding: 10px;
-    text-align: center;
-}
-
-.gridSkills {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-    padding: 10px;
-    width: 50px;
     text-align: center;
 }
 
