@@ -88,9 +88,10 @@ p {
 .gridSkills {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
     grid-gap: 20px;
-    padding: 100px;
-    text-align: center;
+    padding: 50px;
+    justify-items: center;
 }
 
 div.gridSkills .skillItem {
@@ -100,6 +101,8 @@ div.gridSkills .skillItem {
     box-sizing: border-box;
     box-shadow: 0px 0px 5px 1px #dbdbdb;
     transition: all 200ms ease;
+    width: 200px;
+    height: 200px;
 }
 
 div.gridSkills .skillItem:hover {
@@ -108,15 +111,12 @@ div.gridSkills .skillItem:hover {
 }
 
 div.gridSkills img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
 }
 
 #item3 {
     grid-area: 2 / 1 / span 1 / span 2;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
 }
 
 #skills {
@@ -186,13 +186,14 @@ div.gridSkills img {
     }
 }
 
-@media screen and (max-width:470px){
+@media screen and (max-width:510px){
+    .gridSkills {
+        display: block;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
     .gridContact {
         display: block;
-    }
-
-    .contactInfo p {
-        text-align: center;
     }
 
     .navbar a {
