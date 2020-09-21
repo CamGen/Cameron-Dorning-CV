@@ -87,7 +87,7 @@ p {
 
 .gridSkills {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 20px;
     padding: 50px;
