@@ -208,4 +208,8 @@ div.gridSkills img {
     .navbar a {
         font-size: 15px;
     }
+    
+    #home h2 {
+      padding-top: 300px;
+    }
 }
