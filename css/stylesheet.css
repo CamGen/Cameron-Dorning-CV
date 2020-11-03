@@ -91,6 +91,7 @@ div.content {
     margin-right: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 0px;
 }
 
 p {
@@ -162,7 +163,7 @@ div.gridSkills img {
 }
 
 #profile {
-    clip-path: circle(40% at 50% 37%);
+    clip-path: circle(35% at 50% 37%);
     width: 250px;
 }
 
@@ -176,7 +177,6 @@ div.gridSkills img {
     }
 
     #contact p {
-        padding-top: 0px;
         margin: 0px;
     }
 }
